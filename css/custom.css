@@ -21,15 +21,14 @@ header {
   position: fixed;
   display: block;
   width: 100%;
-  transition: all 0.4s ease;
   background-color: #fff;
   z-index: 9000000;
 }
 
 .sticky {
   position:fixed;
-  transition: all 0.4s ease;
   margin-top: -125px;
+  transition: all 0.4s ease;
 }
 
 .container {
@@ -42,12 +41,10 @@ header {
   margin: auto;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  transition: all 0.4s ease;
 }
 
 .hidden {
   opacity: 0;
-  transition: all 0.4s ease;
 }
 
 .line-logo {
@@ -63,7 +60,6 @@ nav {
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #a8a8a8;
-  transition: all 0.4s ease;
   background-color: #fff;
   box-shadow: 0 5px 5px -5px #a8a8a8;
 }
@@ -305,12 +301,10 @@ nav div:hover {
   margin: auto;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  transition: all 0.4s ease;
 }
 
 .hidden {
   opacity: 0;
-  transition: all 0.4s ease;
 }
 
 .line-logo {
@@ -326,7 +320,6 @@ nav {
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #a8a8a8;
-  transition: all 0.4s ease;
   background-color: #fff;
   box-shadow: 0 5px 5px -5px #a8a8a8;
 }
