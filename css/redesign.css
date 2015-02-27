@@ -348,6 +348,7 @@ header {
   margin-top: 2em;
   margin-bottom: 0.5em;
   padding-left: 2em;
+  margin-left: 3em;
   transition: all 0.4s ease;
 }
 
@@ -355,6 +356,7 @@ header {
   margin-top: 95px;
   width: 150px;
   padding-left: 2em;
+  margin-left: 2em;
   transition: all 0.4s ease;
 }
 
@@ -393,3 +395,14 @@ nav {
 }
 
 }
+
+/***********************************************************************
+*/
+
+@media (min-width: 1200px) {
+
+.nav-button {
+  font-size: 1.1em;
+}
+}
+
