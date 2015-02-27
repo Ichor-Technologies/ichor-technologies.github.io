@@ -230,6 +230,7 @@ h4 {
 
 .contact-button {
   min-width: 140px;
+  max-width: 400px;
   margin: auto;
   background-color: #2d7228;
   color: white;
@@ -372,7 +373,5 @@ nav {
 .last-button {
   border-right: 0;
 }
-
-
 
 }
