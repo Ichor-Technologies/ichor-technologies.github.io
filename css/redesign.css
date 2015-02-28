@@ -202,7 +202,7 @@ h4 {
 .team-logo {
   display: block;
   margin: auto;
-  height: 120px;
+  max-width: 100%;
   padding: 10px;
 }
 
