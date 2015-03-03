@@ -101,7 +101,6 @@ nav {
 .container {
   width: 98%;
   margin: auto;
-  padding-top: 5em;
 }
 
 .hidden {
@@ -298,6 +297,19 @@ i {
   height: 90px;
 }
 
+iframe {
+  max-width: 100%;
+}
+
+.video-container {
+  margin: 0;
+  padding-top: 4em;
+}
+
+.video-col {
+  background-color: #000;
+}
+
 /***********************************************************************
 */
 
@@ -307,6 +319,21 @@ i {
   padding: 0.4em;
 }
 
+.video-container {
+  padding-top: 4em;
+}
+
+
+/***********************************************************************
+*/
+
+@media (min-width: 760px) {
+
+.video-container {
+  padding-top: 5em;
+}
+
+}
 
 /***********************************************************************
 */
@@ -315,7 +342,6 @@ i {
 
 
 .container {
-  padding-top: 10em;
 }
 
 header {
@@ -357,6 +383,15 @@ header {
   padding-left: 2em;
   margin-left: 2em;
   transition: all 0.4s ease;
+}
+
+.video-container {
+  padding-top: 11em;
+
+}
+
+.sticky-video-container {
+  padding-top: 6em;
 }
 
 #dropdown-menu {
