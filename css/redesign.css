@@ -101,6 +101,7 @@ nav {
 .container {
   width: 98%;
   margin: auto;
+  padding-top: 4em;
 }
 
 .hidden {
@@ -342,6 +343,7 @@ i {
 
 
 .container {
+  padding-top: 11em;
 }
 
 header {
